@@ -8,7 +8,6 @@ import { SnackbarList, Spinner } from '@wordpress/components';
 import AppRoutes from './data/routes';
 import ErrorCard from './components/errorCard';
 import { useDispatch, useSelect } from '@wordpress/data';
-import { useEffect } from 'react';
 import { ErrorBoundary } from 'react-error-boundary';
 // eslint-disable-next-line import/no-unresolved
 import { store as noticesStore } from '@wordpress/notices';
@@ -24,7 +23,6 @@ import { default as NewfoldNotifications } from '@modules/wp-module-notification
 // to pass to notifications module
 import apiFetch from '@wordpress/api-fetch';
 import { addQueryArgs } from '@wordpress/url';
-import { useState } from '@wordpress/element';
 
 const Notices = () => {
 	const notices = useSelect(

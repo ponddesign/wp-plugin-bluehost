@@ -18,13 +18,13 @@ const alias = {
 
 /**
  * Make most-common imports available globally to ease import debt.
- * (Instead of import { useEffect } from '@wordpress/element' in every file)
+ * (Instead of import { useEffect } from 'react' in every file)
  */
 const mostCommonImports = {
-	Fragment: [ '@wordpress/element', 'Fragment' ],
-	useState: [ '@wordpress/element', 'useState' ],
-	useEffect: [ '@wordpress/element', 'useEffect' ],
-	useContext: [ '@wordpress/element', 'useContext' ],
+	Fragment: [ 'react', 'Fragment' ],
+	useState: [ 'react', 'useState' ],
+	useEffect: [ 'react', 'useEffect' ],
+	useContext: [ 'react', 'useContext' ],
 	useLocation: [ 'react-router-dom', 'useLocation' ],
 	useNavigate: [ 'react-router-dom', 'useNavigate' ],
 	_filter: [ 'lodash', 'filter' ],

@@ -1,5 +1,3 @@
-import { useEffect, useState } from '@wordpress/element';
-
 /**
  * Checks if the container block is the target element based on the query param.
  * If true, the hook will return that boolean value for a few seconds.

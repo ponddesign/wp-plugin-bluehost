@@ -1,4 +1,3 @@
-import { useEffect, useState } from '@wordpress/element';
 import apiFetch from '@wordpress/api-fetch';
 import { useViewportMatch } from '@wordpress/compose';
 import { addQueryArgs, cleanForSlug } from '@wordpress/url';

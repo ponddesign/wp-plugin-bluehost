@@ -1,5 +1,4 @@
 import apiFetch from '@wordpress/api-fetch';
-import { useState, useEffect } from '@wordpress/element';
 import { useLocation, useMatch, useNavigate } from 'react-router-dom';
 import { Page } from '@newfold/ui-component-library';
 import { NewfoldRuntime } from '@newfold/wp-module-runtime';

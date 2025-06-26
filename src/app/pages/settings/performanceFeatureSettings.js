@@ -1,4 +1,3 @@
-import { useState } from '@wordpress/element';
 import { useUpdateEffect } from 'react-use';
 import { Alert, ToggleField } from '@newfold/ui-component-library';
 import AppStore from '../../data/store';

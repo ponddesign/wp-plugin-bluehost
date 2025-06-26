@@ -1,4 +1,3 @@
-import { useState, useEffect } from '@wordpress/element';
 import { Button, Container, Title } from '@newfold/ui-component-library';
 import {
 	ArrowRightIcon,

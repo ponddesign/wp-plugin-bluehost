@@ -1,5 +1,5 @@
 import { NewfoldRuntime } from '@newfold/wp-module-runtime';
-import { createContext, useMemo } from '@wordpress/element';
+import { createContext, useMemo } from 'react';
 import apiFetch from '@wordpress/api-fetch';
 
 const DEFAULT = {

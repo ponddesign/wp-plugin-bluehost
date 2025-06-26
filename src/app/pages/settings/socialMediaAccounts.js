@@ -1,5 +1,4 @@
 import { Button, Container } from '@newfold/ui-component-library';
-import { useEffect, useState } from '@wordpress/element';
 import {
 	FacebookConnectPluginView,
 	facebookConnectHelper,

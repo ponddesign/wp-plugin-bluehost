@@ -1,4 +1,4 @@
-import { useContext } from '@wordpress/element';
+import { useContext } from 'react';
 import { useUpdateEffect } from 'react-use';
 import { OnboardingScreen } from '@newfold/wp-module-ecommerce';
 import AppStore from 'App/data/store';

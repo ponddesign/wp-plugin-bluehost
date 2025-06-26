@@ -1,5 +1,4 @@
 /* global sprintf */
-import { useState } from '@wordpress/element';
 import { useUpdateEffect } from 'react-use';
 import {
 	Alert,

@@ -2,7 +2,7 @@
 import './webpack-public-path';
 
 import domReady from '@wordpress/dom-ready';
-import { createRoot } from '@wordpress/element';
+import { createRoot } from 'react-dom/client';
 import App from './app';
 
 const WP_ADM_PAGE_ROOT_ELEMENT = 'wppbh-app';
